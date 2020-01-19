@@ -2,6 +2,7 @@
 比如我们要分析<br>
         PHP_FUNCTION(ord)<br>
         {<br>
+
                 zend_string *str;<br>
 
                 ZEND_PARSE_PARAMETERS_START(1, 1)<br>
